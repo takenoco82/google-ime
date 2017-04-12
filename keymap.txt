@@ -1,22 +1,21 @@
 status	key	command
 Composition	Backspace	Backspace
-Composition	Ctrl ;	DisplayAsHalfWidth
-Composition	Ctrl :	DisplayAsHalfAlphanumeric
-Composition	Ctrl '	DisplayAsHalfAlphanumeric
+Composition	Ctrl ;	ConvertToHalfAlphanumeric
 Composition	Ctrl a	MoveCursorToBeginning
 Composition	Ctrl b	MoveCursorLeft
 Composition	Ctrl d	Delete
 Composition	Ctrl e	MoveCursorToEnd
 Composition	Ctrl f	MoveCursorRight
-Composition	Ctrl g	Cancel
 Composition	Ctrl h	Backspace
-Composition	Ctrl j	DisplayAsHiragana
-Composition	Ctrl k	DisplayAsFullKatakana
-Composition	Ctrl l	DisplayAsFullAlphanumeric
+Composition	Ctrl i	ConvertToFullKatakana
+Composition	Ctrl l	ConvertToFullAlphanumeric
 Composition	Ctrl Left	MoveCursorToBeginning
 Composition	Ctrl m	Commit
 Composition	Ctrl m	Commit
+Composition	Ctrl o	ConvertToHalfWidth
 Composition	Ctrl Right	MoveCursorToEnd
+Composition	Ctrl u	ConvertToHiragana
+Composition	Ctrl [	Cancel
 Composition	Delete	Delete
 Composition	Eisu	ToggleAlphanumericMode
 Composition	End	MoveCursorToEnd
@@ -47,29 +46,27 @@ Composition	Right	MoveCursorRight
 Composition	Space	Convert
 Composition	Tab	PredictAndConvert
 Conversion	Backspace	Cancel
-Conversion	Ctrl ;	DisplayAsHalfWidth
-Conversion	Ctrl :	DisplayAsHalfAlphanumeric
-Conversion	Ctrl '	DisplayAsHalfAlphanumeric
+Conversion	Ctrl ;	ConvertToHalfAlphanumeric
 Conversion	Ctrl a	SegmentFocusFirst
 Conversion	Ctrl b	SegmentFocusLeft
 Conversion	Ctrl d	SegmentFocusRight
 Conversion	Ctrl e	ConvertPrev
 Conversion	Ctrl f	SegmentFocusRight
 Conversion	Ctrl h	Cancel
-Conversion	Ctrl i	SegmentWidthShrink
-Conversion	Ctrl j	DisplayAsHiragana
-Conversion	Ctrl k	DisplayAsFullKatakana
-Conversion	Ctrl l	DisplayAsFullAlphanumeric
+Conversion	Ctrl i	ConvertToFullKatakana
+Conversion	Ctrl l	ConvertToFullAlphanumeric
 Conversion	Ctrl Left	SegmentFocusFirst
 Conversion	Ctrl m	Commit
 Conversion	Ctrl n	ConvertNext
-Conversion	Ctrl o	SegmentWidthExpand
+Conversion	Ctrl o	ConvertToHalfWidth
 Conversion	Ctrl p	ConvertPrev
 Conversion	Ctrl q	SegmentWidthShrink
 Conversion	Ctrl Right	SegmentFocusLast
+Conversion	Ctrl u	ConvertToHiragana
 Conversion	Ctrl s	SegmentFocusLeft
 Conversion	Ctrl w	SegmentWidthExpand
 Conversion	Ctrl x	ConvertNext
+Conversion	Ctrl [	Cancel
 Conversion	Down	ConvertNext
 Conversion	End	SegmentFocusLast
 Conversion	Enter	Commit
