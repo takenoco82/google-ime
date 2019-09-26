@@ -618,8 +618,8 @@ vk	↑
 vl	→
 v:	：
 v;	；
-ff	■
 gg	※
-vv	○
-bb	×
-cc	★
+bb	★
+vv	■
+cc	○
+xx	×
